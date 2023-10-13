@@ -1,0 +1,23 @@
+{
+  "name": "events-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhakar1/events-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhakar1/events-validator/issues"
+  },
+  "homepage": "https://github.com/zhakar1/events-validator#readme",
+  "type": "module",
+  "dependencies": {
+    "chai": "^4.3.10"
+  }
+}
