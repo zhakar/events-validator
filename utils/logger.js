@@ -6,6 +6,6 @@ export class Logger {
 
   static error(message) {
     const msg = `[ERROR] ${new Date().toLocaleTimeString()} : ${message}`;
-    console.log(msg);
+    console.error(msg);
   }
 };
