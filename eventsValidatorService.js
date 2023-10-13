@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import { Logger } from './utils/Logger.js';
-import { parseJSONFromString } from './utils/utils.js';
+import { parseJSONFromString } from './utils/stringUtils.js';
 import { EventTypes } from './constants/eventTypes.js';
 
 export class EventsValidatorService {

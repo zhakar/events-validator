@@ -16,5 +16,6 @@ const eventsValidator = new EventsValidatorService(
   rewardThresholds
 );
 
-console.log(`Array of errors:`);
-console.log(eventsValidator.validateEvents(json));
+const errorsArray = eventsValidator.validateEvents(json);
+console.log('Array of errors:');
+console.log(errorsArray);
